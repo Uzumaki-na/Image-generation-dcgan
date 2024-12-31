@@ -22,6 +22,7 @@ A production-grade implementation of a Deep Convolutional GAN leveraging state-o
   - IS Score: 2.84
   - Memory Efficiency: 35% reduction in VRAM usage
 
+
 ## 🚀 Engineering Excellence
 
 ### Optimization Stack
@@ -64,7 +65,6 @@ A production-grade implementation of a Deep Convolutional GAN leveraging state-o
 - Identity preservation metrics
 
 ## 📊 Model Architecture
-![GAN Architecture](http://quick-lint-js.com/cli/demo.svg)
 ```
 G: z → FC(512) → ResBlock(512) → ResBlock(256) → ResBlock(128) → Conv(3) → tanh
 D: x → SNConv(64) → SNConv(128) → SNConv(256) → SNConv(512) → FC(1)
@@ -77,6 +77,4 @@ D: x → SNConv(64) → SNConv(128) → SNConv(256) → SNConv(512) → FC(1)
 
 This implementation pushes the boundaries of what's possible with modern GANs while maintaining production-ready code quality and scalability.
 
-[Your Name]
-ML Research Engineer
-[Your Portfolio/GitHub]
+
