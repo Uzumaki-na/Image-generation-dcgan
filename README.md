@@ -70,10 +70,6 @@ G: z → FC(512) → ResBlock(512) → ResBlock(256) → ResBlock(128) → Conv(
 D: x → SNConv(64) → SNConv(128) → SNConv(256) → SNConv(512) → FC(1)
 ```
 
-## 🏆 Recognition
-- Featured in PyTorch community spotlight
-- Referenced in "Advanced GAN Architectures 2024"
-- Used by 3 research labs for facial analysis
 
 This implementation pushes the boundaries of what's possible with modern GANs while maintaining production-ready code quality and scalability.
 
